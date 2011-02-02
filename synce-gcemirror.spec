@@ -10,14 +10,13 @@ Group:		Networking
 Source0:	http://downloads.sourceforge.net/project/synce/SynCE-GNOME/0.15/gcemirror-%{version}.tar.gz
 # Source0-md5:	900d32314242ca95ab94637c424573e3
 URL:		http://www.synce.org/
+BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel >= 1:2.14
-BuildRequires:	libjpeg-devel
+BuildRequires:	intltool
+BuildRequires:	pkgconfig
 BuildRequires:	synce-librapi2-devel >= 0.13
 BuildRequires:	synce-libsynce-devel
-BuildRequires:	xorg-cf-files
 BuildRequires:	xorg-lib-libXext-devel
-BuildRequires:	xorg-lib-libXt-devel
-BuildRequires:	xorg-util-imake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
