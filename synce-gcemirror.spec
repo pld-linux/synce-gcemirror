@@ -10,7 +10,7 @@ Group:		Networking
 Source0:	http://downloads.sourceforge.net/project/synce/SynCE-GNOME/0.15/gcemirror-%{version}.tar.gz
 # Source0-md5:	900d32314242ca95ab94637c424573e3
 URL:		http://www.synce.org/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 1:2.14
 BuildRequires:	intltool
 BuildRequires:	pkgconfig
