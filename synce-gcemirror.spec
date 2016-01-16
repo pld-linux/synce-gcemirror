@@ -4,7 +4,7 @@ Summary(ru.UTF-8):	Управление Windows CE в стиле VNC
 Summary(uk.UTF-8):	Керування Windows CE у стилі VNC
 Name:		synce-gcemirror
 Version:	0.4
-Release:	2
+Release:	3
 License:	MIT
 Group:		Networking
 Source0:	http://downloads.sourceforge.net/synce/gcemirror-%{version}.tar.gz
